@@ -52,7 +52,7 @@ int main() {
 }
 
 bool tradeCheck(unsigned short* dmg1, unsigned short level1, unsigned short* dmg2, unsigned short level2) {
-    if (dmg1 == NULL || dmg2 == NULL || level1 <= 0 || level2 <= 0 || *dmg1 <= 0 || *dmg2 <= 0) {
+    if (dmg1 == NULL || dmg2 == NULL) {
         return false;
     }
 
